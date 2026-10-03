@@ -7,20 +7,15 @@ It features a simulated authentication flow, interactive data visualization, and
 
 🗂️ File Structure
 The project is strictly modularized for maintainability and clean architecture. The separation of concerns ensures that authentication logic does not interfere with the main dashboard functionality.
-
-
-
-
-
-Plaintext
 stackCRM/
-├── index.html        # Entry point: Login and Registration UI
-├── style.css         # Global CSS variables, base styles, and Login UI styling
-├── script.js         # Authentication logic, form validation, and mock auth token generation
-├── dashboard.html    # Main application workspace (Sidebar, Navbar, CRM Modules)
-├── dashboard.css     # Dashboard-specific layout, grid system, and component styles
-├── dashboard.js      # Core CRM logic: CRUD operations, Chart.js integration, and LocalStorage
-└── README.md         # Project documentation and setup guide
+structure--
+├── index.html          # Entry point: Operator authentication and registration UI
+├── style.css           # Global design tokens, base styles, and Login UI styling
+├── script.js           # Auth flow, inline validation, and mock token generation
+├── dashboard.html      # Operational dashboard and main CRM workspace
+├── dashboard.css       # Dashboard layout, sidebar navigation, and component styles
+├── dashboard.js        # Dynamic KPIs, CRUD operations, Chart.js, and localStorage
+└── README.md           # Project documentation, tech stack, and local setup guide
 File Breakdown
 index.html & style.css: Contain the responsive login and registration interfaces. Includes custom CSS variables for a consistent design system (colors, typography, spacing).
 
