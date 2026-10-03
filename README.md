@@ -8,6 +8,10 @@ It features a simulated authentication flow, interactive data visualization, and
 🗂️ File Structure
 The project is strictly modularized for maintainability and clean architecture. The separation of concerns ensures that authentication logic does not interfere with the main dashboard functionality.
 
+
+
+
+
 Plaintext
 stackCRM/
 ├── index.html        # Entry point: Login and Registration UI
